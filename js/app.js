@@ -25,6 +25,9 @@ document.addEventListener('DOMContentLoaded', function() {
     // 渲染搜索历史
     renderSearchHistory();
     
+    // 处理URL参数，动态更新SEO
+    handleURLParamsForSEO();
+    
     // 设置默认API选择（如果是第一次加载）
     if (!localStorage.getItem('hasInitializedDefaults')) {
         // 仅选择天涯资源、暴风资源和如意资源
@@ -1029,6 +1032,59 @@ function playNextEpisode(sourceCode) {
 function handlePlayerError() {
     hideLoading();
     showToast('视频播放加载失败，请尝试其他视频源', 'error');
+}
+
+// 处理URL参数，动态更新SEO
+function handleURLParamsForSEO() {
+    const urlParams = new URLSearchParams(window.location.search);
+    const type = urlParams.get('type');
+    const tag = urlParams.get('tag');
+    const s = urlParams.get('s');
+    
+    if (tag && type) {
+        updateCategorySEO(tag, type);
+    } else if (s) {
+        updateSearchSEO(s);
+    }
+}
+
+// 更新分类页面SEO
+function updateCategorySEO(tag, type) {
+    const typeText = type === 'tv' ? '电视剧' : '电影';
+    const title = `${tag} - ${typeText}在线观看 | LibreTV`;
+    const description = `LibreTV提供最新${tag}${typeText}在线观看，高清免费，无需注册。Watch ${tag} ${type === 'tv' ? 'TV Shows' : 'Movies'} online for free on LibreTV.`;
+    const keywords = `${tag},${typeText},在线观看,免费观看,高清播放,${type === 'tv' ? '美剧,韩剧,日剧,国产剧' : '电影,动作片,喜剧片,爱情片'},LibreTV`;
+    
+    updatePageMeta(title, description, keywords);
+}
+
+// 更新搜索页面SEO
+function updateSearchSEO(searchTerm) {
+    const title = `"${searchTerm}" 搜索结果 | LibreTV`;
+    const description = `在LibreTV搜索"${searchTerm}"，找到相关电影、电视剧、综艺、动漫等视频内容。Search "${searchTerm}" on LibreTV for movies, TV shows and more.`;
+    const keywords = `${searchTerm},搜索,在线观看,免费观看,LibreTV,search`;
+    
+    updatePageMeta(title, description, keywords);
+}
+
+// 更新页面meta标签
+function updatePageMeta(title, description, keywords) {
+    document.title = title;
+    
+    const updateMeta = (name, content, isProperty = false) => {
+        const selector = isProperty ? `meta[property="${name}"]` : `meta[name="${name}"]`;
+        let meta = document.querySelector(selector);
+        if (meta) {
+            meta.setAttribute('content', content);
+        }
+    };
+    
+    updateMeta('description', description);
+    updateMeta('keywords', keywords);
+    updateMeta('og:title', title, true);
+    updateMeta('og:description', description, true);
+    updateMeta('twitter:title', title, true);
+    updateMeta('twitter:description', description, true);
 }
 
 // 辅助函数用于渲染剧集按钮（使用当前的排序状态）
