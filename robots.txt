@@ -4,3 +4,4 @@ Disallow: /js/
 Disallow: /css/
 
 Sitemap: https://bk0315.qzz.io/sitemap.xml
+Sitemap: https://bk0315.qzz.io/video-sitemap.xml
