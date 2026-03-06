@@ -7,18 +7,6 @@
       <priority>1.0</priority>
    </url>
    <url>
-      <loc>https://bk0315.qzz.io/about.html</loc>
-      <lastmod>2025-04-06</lastmod>
-      <changefreq>monthly</changefreq>
-      <priority>0.8</priority>
-   </url>
-   <url>
-      <loc>https://bk0315.qzz.io/privacy.html</loc>
-      <lastmod>2025-04-06</lastmod>
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-   </url>
-   <url>
       <loc>https://bk0315.qzz.io/?type=movie&amp;tag=%E7%83%AD%E9%97%A8</loc>
       <lastmod>2025-04-06</lastmod>
       <changefreq>daily</changefreq>
