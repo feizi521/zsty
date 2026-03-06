@@ -1,0 +1,489 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+   
+   <url>
+      <loc>https://bk0315.qzz.io/</loc>
+      <lastmod>2025-04-06</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>1.0</priority>
+      <video:video>
+         <video:thumbnail_loc>https://bk0315.qzz.io/image/retrotv_5520.png</video:thumbnail_loc>
+         <video:title>LibreTV - 免费在线视频搜索与观看平台 | Free Online Video Streaming Platform</video:title>
+         <video:description>LibreTV是一个免费的在线视频搜索平台，无广告、安全，支持电影、电视剧、综艺、动漫、纪录片等。LibreTV is a free online video streaming platform, ad-free and secure.</video:description>
+         <video:tag>在线视频</video:tag>
+         <video:tag>免费电影</video:tag>
+         <video:tag>电视剧</video:tag>
+         <video:tag>综艺</video:tag>
+         <video:tag>动漫</video:tag>
+         <video:tag>纪录片</video:tag>
+         <video:tag>Online Video</video:tag>
+         <video:tag>Free Movies</video:tag>
+         <video:tag>Streaming</video:tag>
+         <video:category>视频网站</video:category>
+         <video:family_friendly>yes</video:family_friendly>
+         <video:requires_subscription>no</video:requires_subscription>
+      </video:video>
+   </url>
+
+   <url>
+      <loc>https://bk0315.qzz.io/?type=movie&amp;tag=%E7%83%AD%E9%97%A8</loc>
+      <lastmod>2025-04-06</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.9</priority>
+      <video:video>
+         <video:thumbnail_loc>https://bk0315.qzz.io/image/retrotv_5520.png</video:thumbnail_loc>
+         <video:title>热门电影 - 在线观看 | LibreTV</video:title>
+         <video:description>LibreTV提供最新热门电影在线观看，高清免费，无需注册。Watch popular movies online for free on LibreTV.</video:description>
+         <video:tag>热门电影</video:tag>
+         <video:tag>最新电影</video:tag>
+         <video:tag>在线观看</video:tag>
+         <video:tag>免费电影</video:tag>
+         <video:tag>高清电影</video:tag>
+         <video:tag>Popular Movies</video:tag>
+         <video:category>电影</video:category>
+         <video:family_friendly>yes</video:family_friendly>
+      </video:video>
+   </url>
+
+   <url>
+      <loc>https://bk0315.qzz.io/?type=movie&amp;tag=%E6%9C%80%E6%96%B0</loc>
+      <lastmod>2025-04-06</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.9</priority>
+      <video:video>
+         <video:thumbnail_loc>https://bk0315.qzz.io/image/retrotv_5520.png</video:thumbnail_loc>
+         <video:title>最新电影 - 在线观看 | LibreTV</video:title>
+         <video:description>LibreTV提供最新上映电影在线观看，高清免费，无需注册。Watch latest movies online for free on LibreTV.</video:description>
+         <video:tag>最新电影</video:tag>
+         <video:tag>新片上映</video:tag>
+         <video:tag>在线观看</video:tag>
+         <video:tag>免费电影</video:tag>
+         <video:tag>Latest Movies</video:tag>
+         <video:tag>New Releases</video:tag>
+         <video:category>电影</video:category>
+         <video:family_friendly>yes</video:family_friendly>
+      </video:video>
+   </url>
+
+   <url>
+      <loc>https://bk0315.qzz.io/?type=movie&amp;tag=%E7%BB%8F%E5%85%B8</loc>
+      <lastmod>2025-04-06</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+      <video:video>
+         <video:thumbnail_loc>https://bk0315.qzz.io/image/retrotv_5520.png</video:thumbnail_loc>
+         <video:title>经典电影 - 在线观看 | LibreTV</video:title>
+         <video:description>LibreTV提供经典老电影在线观看，高清免费，重温经典。Watch classic movies online for free on LibreTV.</video:description>
+         <video:tag>经典电影</video:tag>
+         <video:tag>老电影</video:tag>
+         <video:tag>经典影片</video:tag>
+         <video:tag>怀旧电影</video:tag>
+         <video:tag>Classic Movies</video:tag>
+         <video:category>电影</video:category>
+         <video:family_friendly>yes</video:family_friendly>
+      </video:video>
+   </url>
+
+   <url>
+      <loc>https://bk0315.qzz.io/?type=movie&amp;tag=%E8%B1%86%E7%93%A3%E9%AB%98%E5%88%86</loc>
+      <lastmod>2025-04-06</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+      <video:video>
+         <video:thumbnail_loc>https://bk0315.qzz.io/image/retrotv_5520.png</video:thumbnail_loc>
+         <video:title>豆瓣高分电影 - 在线观看 | LibreTV</video:title>
+         <video:description>LibreTV提供豆瓣高分电影在线观看，精选优质影片，高清免费。Watch top-rated movies on LibreTV.</video:description>
+         <video:tag>豆瓣高分</video:tag>
+         <video:tag>高分电影</video:tag>
+         <video:tag>优质电影</video:tag>
+         <video:tag>口碑电影</video:tag>
+         <video:tag>Top Rated Movies</video:tag>
+         <video:tag>Douban High Score</video:tag>
+         <video:category>电影</video:category>
+         <video:family_friendly>yes</video:family_friendly>
+      </video:video>
+   </url>
+
+   <url>
+      <loc>https://bk0315.qzz.io/?type=movie&amp;tag=%E5%8D%8E%E8%AF%AD</loc>
+      <lastmod>2025-04-06</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+      <video:video>
+         <video:thumbnail_loc>https://bk0315.qzz.io/image/retrotv_5520.png</video:thumbnail_loc>
+         <video:title>华语电影 - 在线观看 | LibreTV</video:title>
+         <video:description>LibreTV提供华语电影在线观看，包括大陆、香港、台湾电影，高清免费。Watch Chinese movies online for free on LibreTV.</video:description>
+         <video:tag>华语电影</video:tag>
+         <video:tag>国产电影</video:tag>
+         <video:tag>香港电影</video:tag>
+         <video:tag>台湾电影</video:tag>
+         <video:tag>Chinese Movies</video:tag>
+         <video:category>电影</video:category>
+         <video:family_friendly>yes</video:family_friendly>
+      </video:video>
+   </url>
+
+   <url>
+      <loc>https://bk0315.qzz.io/?type=movie&amp;tag=%E6%AC%A7%E7%BE%8E</loc>
+      <lastmod>2025-04-06</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+      <video:video>
+         <video:thumbnail_loc>https://bk0315.qzz.io/image/retrotv_5520.png</video:thumbnail_loc>
+         <video:title>欧美电影 - 在线观看 | LibreTV</video:title>
+         <video:description>LibreTV提供欧美电影在线观看，包括好莱坞大片、欧洲电影，高清免费。Watch European and American movies online for free on LibreTV.</video:description>
+         <video:tag>欧美电影</video:tag>
+         <video:tag>好莱坞电影</video:tag>
+         <video:tag>美国电影</video:tag>
+         <video:tag>欧洲电影</video:tag>
+         <video:tag>Hollywood Movies</video:tag>
+         <video:tag>Western Movies</video:tag>
+         <video:category>电影</video:category>
+         <video:family_friendly>yes</video:family_friendly>
+      </video:video>
+   </url>
+
+   <url>
+      <loc>https://bk0315.qzz.io/?type=movie&amp;tag=%E9%9F%A9%E5%9B%BD</loc>
+      <lastmod>2025-04-06</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+      <video:video>
+         <video:thumbnail_loc>https://bk0315.qzz.io/image/retrotv_5520.png</video:thumbnail_loc>
+         <video:title>韩国电影 - 在线观看 | LibreTV</video:title>
+         <video:description>LibreTV提供韩国电影在线观看，最新韩影、经典韩国电影，高清免费。Watch Korean movies online for free on LibreTV.</video:description>
+         <video:tag>韩国电影</video:tag>
+         <video:tag>韩影</video:tag>
+         <video:tag>韩国影片</video:tag>
+         <video:tag>Korean Movies</video:tag>
+         <video:tag>K-Movies</video:tag>
+         <video:category>电影</video:category>
+         <video:family_friendly>yes</video:family_friendly>
+      </video:video>
+   </url>
+
+   <url>
+      <loc>https://bk0315.qzz.io/?type=movie&amp;tag=%E6%97%A5%E6%9C%AC</loc>
+      <lastmod>2025-04-06</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+      <video:video>
+         <video:thumbnail_loc>https://bk0315.qzz.io/image/retrotv_5520.png</video:thumbnail_loc>
+         <video:title>日本电影 - 在线观看 | LibreTV</video:title>
+         <video:description>LibreTV提供日本电影在线观看，最新日影、经典日本电影，高清免费。Watch Japanese movies online for free on LibreTV.</video:description>
+         <video:tag>日本电影</video:tag>
+         <video:tag>日影</video:tag>
+         <video:tag>日本影片</video:tag>
+         <video:tag>Japanese Movies</video:tag>
+         <video:tag>J-Movies</video:tag>
+         <video:category>电影</video:category>
+         <video:family_friendly>yes</video:family_friendly>
+      </video:video>
+   </url>
+
+   <url>
+      <loc>https://bk0315.qzz.io/?type=movie&amp;tag=%E5%8A%A8%E4%BD%9C</loc>
+      <lastmod>2025-04-06</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+      <video:video>
+         <video:thumbnail_loc>https://bk0315.qzz.io/image/retrotv_5520.png</video:thumbnail_loc>
+         <video:title>动作电影 - 在线观看 | LibreTV</video:title>
+         <video:description>LibreTV提供动作电影在线观看，精彩打斗、刺激场面，高清免费。Watch action movies online for free on LibreTV.</video:description>
+         <video:tag>动作电影</video:tag>
+         <video:tag>动作片</video:tag>
+         <video:tag>打斗片</video:tag>
+         <video:tag>Action Movies</video:tag>
+         <video:tag>Action Films</video:tag>
+         <video:category>电影</video:category>
+         <video:family_friendly>yes</video:family_friendly>
+      </video:video>
+   </url>
+
+   <url>
+      <loc>https://bk0315.qzz.io/?type=movie&amp;tag=%E5%96%9C%E5%89%A7</loc>
+      <lastmod>2025-04-06</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+      <video:video>
+         <video:thumbnail_loc>https://bk0315.qzz.io/image/retrotv_5520.png</video:thumbnail_loc>
+         <video:title>喜剧电影 - 在线观看 | LibreTV</video:title>
+         <video:description>LibreTV提供喜剧电影在线观看，搞笑幽默、轻松愉快，高清免费。Watch comedy movies online for free on LibreTV.</video:description>
+         <video:tag>喜剧电影</video:tag>
+         <video:tag>喜剧片</video:tag>
+         <video:tag>搞笑电影</video:tag>
+         <video:tag>Comedy Movies</video:tag>
+         <video:tag>Funny Movies</video:tag>
+         <video:category>电影</video:category>
+         <video:family_friendly>yes</video:family_friendly>
+      </video:video>
+   </url>
+
+   <url>
+      <loc>https://bk0315.qzz.io/?type=movie&amp;tag=%E7%88%B1%E6%83%85</loc>
+      <lastmod>2025-04-06</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+      <video:video>
+         <video:thumbnail_loc>https://bk0315.qzz.io/image/retrotv_5520.png</video:thumbnail_loc>
+         <video:title>爱情电影 - 在线观看 | LibreTV</video:title>
+         <video:description>LibreTV提供爱情电影在线观看，浪漫唯美、感人至深，高清免费。Watch romance movies online for free on LibreTV.</video:description>
+         <video:tag>爱情电影</video:tag>
+         <video:tag>爱情片</video:tag>
+         <video:tag>浪漫电影</video:tag>
+         <video:tag>Romance Movies</video:tag>
+         <video:tag>Love Story</video:tag>
+         <video:category>电影</video:category>
+         <video:family_friendly>yes</video:family_friendly>
+      </video:video>
+   </url>
+
+   <url>
+      <loc>https://bk0315.qzz.io/?type=movie&amp;tag=%E7%A7%91%E5%B9%BB</loc>
+      <lastmod>2025-04-06</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+      <video:video>
+         <video:thumbnail_loc>https://bk0315.qzz.io/image/retrotv_5520.png</video:thumbnail_loc>
+         <video:title>科幻电影 - 在线观看 | LibreTV</video:title>
+         <video:description>LibreTV提供科幻电影在线观看，未来世界、科技想象，高清免费。Watch sci-fi movies online for free on LibreTV.</video:description>
+         <video:tag>科幻电影</video:tag>
+         <video:tag>科幻片</video:tag>
+         <video:tag>未来电影</video:tag>
+         <video:tag>Sci-Fi Movies</video:tag>
+         <video:tag>Science Fiction</video:tag>
+         <video:category>电影</video:category>
+         <video:family_friendly>yes</video:family_friendly>
+      </video:video>
+   </url>
+
+   <url>
+      <loc>https://bk0315.qzz.io/?type=movie&amp;tag=%E6%82%AC%E7%96%91</loc>
+      <lastmod>2025-04-06</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+      <video:video>
+         <video:thumbnail_loc>https://bk0315.qzz.io/image/retrotv_5520.png</video:thumbnail_loc>
+         <video:title>悬疑电影 - 在线观看 | LibreTV</video:title>
+         <video:description>LibreTV提供悬疑电影在线观看，烧脑推理、扑朔迷离，高清免费。Watch mystery movies online for free on LibreTV.</video:description>
+         <video:tag>悬疑电影</video:tag>
+         <video:tag>悬疑片</video:tag>
+         <video:tag>推理电影</video:tag>
+         <video:tag>Mystery Movies</video:tag>
+         <video:tag>Suspense Films</video:tag>
+         <video:category>电影</video:category>
+         <video:family_friendly>yes</video:family_friendly>
+      </video:video>
+   </url>
+
+   <url>
+      <loc>https://bk0315.qzz.io/?type=movie&amp;tag=%E6%81%90%E6%80%96</loc>
+      <lastmod>2025-04-06</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+      <video:video>
+         <video:thumbnail_loc>https://bk0315.qzz.io/image/retrotv_5520.png</video:thumbnail_loc>
+         <video:title>恐怖电影 - 在线观看 | LibreTV</video:title>
+         <video:description>LibreTV提供恐怖电影在线观看，惊悚刺激、毛骨悚然，高清免费。Watch horror movies online for free on LibreTV.</video:description>
+         <video:tag>恐怖电影</video:tag>
+         <video:tag>恐怖片</video:tag>
+         <video:tag>惊悚电影</video:tag>
+         <video:tag>Horror Movies</video:tag>
+         <video:tag>Thriller Films</video:tag>
+         <video:category>电影</video:category>
+         <video:family_friendly>yes</video:family_friendly>
+      </video:video>
+   </url>
+
+   <url>
+      <loc>https://bk0315.qzz.io/?type=tv&amp;tag=%E7%83%AD%E9%97%A8</loc>
+      <lastmod>2025-04-06</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.9</priority>
+      <video:video>
+         <video:thumbnail_loc>https://bk0315.qzz.io/image/retrotv_5520.png</video:thumbnail_loc>
+         <video:title>热门电视剧 - 在线观看 | LibreTV</video:title>
+         <video:description>LibreTV提供热门电视剧在线观看，最新热播剧集，高清免费。Watch popular TV shows online for free on LibreTV.</video:description>
+         <video:tag>热门电视剧</video:tag>
+         <video:tag>热播剧</video:tag>
+         <video:tag>最新电视剧</video:tag>
+         <video:tag>Popular TV Shows</video:tag>
+         <video:tag>Hot Series</video:tag>
+         <video:category>电视剧</video:category>
+         <video:family_friendly>yes</video:family_friendly>
+      </video:video>
+   </url>
+
+   <url>
+      <loc>https://bk0315.qzz.io/?type=tv&amp;tag=%E7%BE%8E%E5%89%A7</loc>
+      <lastmod>2025-04-06</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+      <video:video>
+         <video:thumbnail_loc>https://bk0315.qzz.io/image/retrotv_5520.png</video:thumbnail_loc>
+         <video:title>美剧 - 在线观看 | LibreTV</video:title>
+         <video:description>LibreTV提供美剧在线观看，最新美剧、经典美剧，高清免费。Watch American TV shows online for free on LibreTV.</video:description>
+         <video:tag>美剧</video:tag>
+         <video:tag>美国电视剧</video:tag>
+         <video:tag>欧美剧</video:tag>
+         <video:tag>American TV Shows</video:tag>
+         <video:tag>US Series</video:tag>
+         <video:category>电视剧</video:category>
+         <video:family_friendly>yes</video:family_friendly>
+      </video:video>
+   </url>
+
+   <url>
+      <loc>https://bk0315.qzz.io/?type=tv&amp;tag=%E8%8B%B1%E5%89%A7</loc>
+      <lastmod>2025-04-06</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+      <video:video>
+         <video:thumbnail_loc>https://bk0315.qzz.io/image/retrotv_5520.png</video:thumbnail_loc>
+         <video:title>英剧 - 在线观看 | LibreTV</video:title>
+         <video:description>LibreTV提供英剧在线观看，BBC经典、最新英剧，高清免费。Watch British TV shows online for free on LibreTV.</video:description>
+         <video:tag>英剧</video:tag>
+         <video:tag>英国电视剧</video:tag>
+         <video:tag>BBC剧集</video:tag>
+         <video:tag>British TV Shows</video:tag>
+         <video:tag>UK Series</video:tag>
+         <video:category>电视剧</video:category>
+         <video:family_friendly>yes</video:family_friendly>
+      </video:video>
+   </url>
+
+   <url>
+      <loc>https://bk0315.qzz.io/?type=tv&amp;tag=%E9%9F%A9%E5%89%A7</loc>
+      <lastmod>2025-04-06</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+      <video:video>
+         <video:thumbnail_loc>https://bk0315.qzz.io/image/retrotv_5520.png</video:thumbnail_loc>
+         <video:title>韩剧 - 在线观看 | LibreTV</video:title>
+         <video:description>LibreTV提供韩剧在线观看，最新韩剧、经典韩剧，高清免费。Watch Korean dramas online for free on LibreTV.</video:description>
+         <video:tag>韩剧</video:tag>
+         <video:tag>韩国电视剧</video:tag>
+         <video:tag>韩流</video:tag>
+         <video:tag>Korean Drama</video:tag>
+         <video:tag>K-Drama</video:tag>
+         <video:category>电视剧</video:category>
+         <video:family_friendly>yes</video:family_friendly>
+      </video:video>
+   </url>
+
+   <url>
+      <loc>https://bk0315.qzz.io/?type=tv&amp;tag=%E6%97%A5%E5%89%A7</loc>
+      <lastmod>2025-04-06</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+      <video:video>
+         <video:thumbnail_loc>https://bk0315.qzz.io/image/retrotv_5520.png</video:thumbnail_loc>
+         <video:title>日剧 - 在线观看 | LibreTV</video:title>
+         <video:description>LibreTV提供日剧在线观看，最新日剧、经典日剧，高清免费。Watch Japanese dramas online for free on LibreTV.</video:description>
+         <video:tag>日剧</video:tag>
+         <video:tag>日本电视剧</video:tag>
+         <video:tag>日剧推荐</video:tag>
+         <video:tag>Japanese Drama</video:tag>
+         <video:tag>J-Drama</video:tag>
+         <video:category>电视剧</video:category>
+         <video:family_friendly>yes</video:family_friendly>
+      </video:video>
+   </url>
+
+   <url>
+      <loc>https://bk0315.qzz.io/?type=tv&amp;tag=%E5%9B%BD%E4%BA%A7%E5%89%A7</loc>
+      <lastmod>2025-04-06</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+      <video:video>
+         <video:thumbnail_loc>https://bk0315.qzz.io/image/retrotv_5520.png</video:thumbnail_loc>
+         <video:title>国产剧 - 在线观看 | LibreTV</video:title>
+         <video:description>LibreTV提供国产剧在线观看，最新国产电视剧、热播国产剧，高清免费。Watch Chinese TV dramas online for free on LibreTV.</video:description>
+         <video:tag>国产剧</video:tag>
+         <video:tag>国产电视剧</video:tag>
+         <video:tag>大陆剧</video:tag>
+         <video:tag>Chinese Drama</video:tag>
+         <video:tag>C-Drama</video:tag>
+         <video:category>电视剧</video:category>
+         <video:family_friendly>yes</video:family_friendly>
+      </video:video>
+   </url>
+
+   <url>
+      <loc>https://bk0315.qzz.io/?type=tv&amp;tag=%E6%B8%AF%E5%89%A7</loc>
+      <lastmod>2025-04-06</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+      <video:video>
+         <video:thumbnail_loc>https://bk0315.qzz.io/image/retrotv_5520.png</video:thumbnail_loc>
+         <video:title>港剧 - 在线观看 | LibreTV</video:title>
+         <video:description>LibreTV提供港剧在线观看，TVB剧集、经典港剧，高清免费。Watch Hong Kong TV dramas online for free on LibreTV.</video:description>
+         <video:tag>港剧</video:tag>
+         <video:tag>香港电视剧</video:tag>
+         <video:tag>TVB剧集</video:tag>
+         <video:tag>Hong Kong Drama</video:tag>
+         <video:tag>HK Drama</video:tag>
+         <video:category>电视剧</video:category>
+         <video:family_friendly>yes</video:family_friendly>
+      </video:video>
+   </url>
+
+   <url>
+      <loc>https://bk0315.qzz.io/?type=tv&amp;tag=%E6%97%A5%E6%9C%AC%E5%8A%A8%E7%94%BB</loc>
+      <lastmod>2025-04-06</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+      <video:video>
+         <video:thumbnail_loc>https://bk0315.qzz.io/image/retrotv_5520.png</video:thumbnail_loc>
+         <video:title>日本动画 - 在线观看 | LibreTV</video:title>
+         <video:description>LibreTV提供日本动画在线观看，最新动漫、经典动漫，高清免费。Watch Japanese anime online for free on LibreTV.</video:description>
+         <video:tag>日本动画</video:tag>
+         <video:tag>动漫</video:tag>
+         <video:tag>日漫</video:tag>
+         <video:tag>Anime</video:tag>
+         <video:tag>Japanese Animation</video:tag>
+         <video:category>动漫</video:category>
+         <video:family_friendly>yes</video:family_friendly>
+      </video:video>
+   </url>
+
+   <url>
+      <loc>https://bk0315.qzz.io/?type=tv&amp;tag=%E7%BB%BC%E8%89%BA</loc>
+      <lastmod>2025-04-06</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+      <video:video>
+         <video:thumbnail_loc>https://bk0315.qzz.io/image/retrotv_5520.png</video:thumbnail_loc>
+         <video:title>综艺 - 在线观看 | LibreTV</video:title>
+         <video:description>LibreTV提供综艺节目在线观看，最新综艺、热门综艺，高清免费。Watch variety shows online for free on LibreTV.</video:description>
+         <video:tag>综艺</video:tag>
+         <video:tag>综艺节目</video:tag>
+         <video:tag>真人秀</video:tag>
+         <video:tag>Variety Shows</video:tag>
+         <video:tag>Reality Shows</video:tag>
+         <video:category>综艺</video:category>
+         <video:family_friendly>yes</video:family_friendly>
+      </video:video>
+   </url>
+
+   <url>
+      <loc>https://bk0315.qzz.io/?type=tv&amp;tag=%E7%BA%AA%E5%BD%95%E7%89%87</loc>
+      <lastmod>2025-04-06</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+      <video:video>
+         <video:thumbnail_loc>https://bk0315.qzz.io/image/retrotv_5520.png</video:thumbnail_loc>
+         <video:title>纪录片 - 在线观看 | LibreTV</video:title>
+         <video:description>LibreTV提供纪录片在线观看，自然纪录片、人文纪录片，高清免费。Watch documentaries online for free on LibreTV.</video:description>
+         <video:tag>纪录片</video:tag>
+         <video:tag>自然纪录片</video:tag>
+         <video:tag>人文纪录片</video:tag>
+         <video:tag>Documentary</video:tag>
+         <video:tag>Documentaries</video:tag>
+         <video:category>纪录片</video:category>
+         <video:family_friendly>yes</video:family_friendly>
+      </video:video>
+   </url>
+
+</urlset>
