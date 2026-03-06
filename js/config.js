@@ -13,10 +13,26 @@ const PASSWORD_CONFIG = {
 // 网站信息配置
 const SITE_CONFIG = {
     name: 'LibreTV',
-    url: 'https://libretv.is-an.org',
-    description: '免费在线视频搜索与观看平台',
+    url: 'https://bk0315.qzz.io',
+    description: 'LibreTV是一个免费的在线视频搜索平台，无广告、安全，支持电影、电视剧、综艺、动漫、纪录片等。LibreTV is a free online video streaming platform.',
     logo: './image/retrotv_5520.png',
     version: '1.0.3'
+};
+
+// SEO配置
+const SEO_CONFIG = {
+    defaultTitle: 'LibreTV - 免费在线视频搜索与观看平台 | Free Online Video Streaming Platform',
+    defaultDescription: 'LibreTV是一个免费的在线视频搜索平台，无广告、安全，支持电影、电视剧、综艺、动漫、纪录片等。LibreTV is a free online video streaming platform.',
+    defaultKeywords: 'LibreTV,在线视频,免费视频,视频搜索,电影,电视剧,综艺,动漫,纪录片,online video,free movies,streaming',
+    titleTemplate: {
+        player: '{title} - 在线观看 | LibreTV',
+        category: '{tag} - {type}在线观看 | LibreTV',
+        search: '"{term}" 搜索结果 | LibreTV'
+    },
+    categoryKeywords: {
+        movie: '电影,动作片,喜剧片,爱情片,科幻片,恐怖片,悬疑片',
+        tv: '电视剧,美剧,韩剧,日剧,国产剧,港剧,综艺,纪录片'
+    }
 };
 
 // API站点配置
