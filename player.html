@@ -3,12 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LibreTV 播放器</title>
+    <title>LibreTV 播放器 - 在线视频播放</title>
+    <meta name="description" content="LibreTV在线视频播放器，支持高清视频播放，无需注册即可观看电影、电视剧、综艺、动漫等内容。">
+    <meta name="keywords" content="在线播放,视频播放器,免费观看,高清播放,电影,电视剧,LibreTV">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="LibreTV Team">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="video.other">
+    <meta property="og:url" content="https://bk0315.qzz.io/player.html">
+    <meta property="og:title" content="LibreTV 播放器 - 在线视频播放">
+    <meta property="og:description" content="LibreTV在线视频播放器，支持高清视频播放，无需注册即可观看。">
+    <meta property="og:image" content="https://bk0315.qzz.io/image/retrotv_5520.png">
+    <meta property="og:site_name" content="LibreTV">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://bk0315.qzz.io/player.html">
+    <meta property="twitter:title" content="LibreTV 播放器 - 在线视频播放">
+    <meta property="twitter:description" content="LibreTV在线视频播放器，支持高清视频播放，无需注册即可观看。">
 
     <!-- Favicon -->
     <link rel="icon" href="./image/retrotv_5520.png">
     <link rel="apple-touch-icon" href="./image/retrotv_5520.png">
     <link rel="manifest" href="manifest.json">
+    <link rel="canonical" href="https://bk0315.qzz.io/player.html">
 
     <script src="libs/tailwindcss.min.js"></script>
     <script src="js/wakelock.js"></script>
@@ -383,6 +402,50 @@
         let adFilteringEnabled = true; // 默认开启广告过滤
         let progressSaveInterval = null; // 定期保存进度的计时器
 
+        // 动态更新SEO标签
+        function updateDynamicSEO(title, episodeIndex, sourceCode) {
+            const episodeText = episodeIndex > 0 ? `第${episodeIndex}集` : '';
+            const fullTitle = title !== '未知视频' ? `${title}${episodeText ? ' ' + episodeText : ''} - 在线观看 | LibreTV` : 'LibreTV 播放器 - 在线视频播放';
+            const description = title !== '未知视频' 
+                ? `观看《${title}》${episodeText ? episodeText + '，' : ''}高清在线播放，无需注册，支持多种设备。Watch "${title}" online for free on LibreTV.`
+                : 'LibreTV在线视频播放器，支持高清视频播放，无需注册即可观看电影、电视剧、综艺、动漫等内容。';
+            const keywords = title !== '未知视频'
+                ? `${title},在线观看,免费观看,高清播放,${episodeText},电影,电视剧,LibreTV,watch online,streaming`
+                : '在线播放,视频播放器,免费观看,高清播放,电影,电视剧,LibreTV';
+
+            document.title = fullTitle;
+            
+            const updateMeta = (name, content, isProperty = false) => {
+                const selector = isProperty ? `meta[property="${name}"]` : `meta[name="${name}"]`;
+                let meta = document.querySelector(selector);
+                if (meta) {
+                    meta.setAttribute('content', content);
+                } else {
+                    meta = document.createElement('meta');
+                    if (isProperty) {
+                        meta.setAttribute('property', name);
+                    } else {
+                        meta.setAttribute('name', name);
+                    }
+                    meta.setAttribute('content', content);
+                    document.head.appendChild(meta);
+                }
+            };
+
+            updateMeta('description', description);
+            updateMeta('keywords', keywords);
+            updateMeta('og:title', fullTitle, true);
+            updateMeta('og:description', description, true);
+            updateMeta('twitter:title', fullTitle, true);
+            updateMeta('twitter:description', description, true);
+            
+            const canonicalUrl = `https://bk0315.qzz.io/player.html?title=${encodeURIComponent(title)}${episodeIndex > 0 ? '&index=' + episodeIndex : ''}`;
+            let canonical = document.querySelector('link[rel="canonical"]');
+            if (canonical) {
+                canonical.setAttribute('href', canonicalUrl);
+            }
+        }
+
         // 页面加载
         document.addEventListener('DOMContentLoaded', function() {
             // 先检查用户是否已通过密码验证
@@ -415,6 +478,9 @@
             // 从localStorage获取数据
             currentVideoTitle = title || localStorage.getItem('currentVideoTitle') || '未知视频';
             currentEpisodeIndex = index;
+            
+            // 动态更新SEO标签
+            updateDynamicSEO(currentVideoTitle, currentEpisodeIndex, sourceCode);
             
             // 设置自动连播开关状态
             autoplayEnabled = localStorage.getItem('autoplayEnabled') !== 'false'; // 默认为true
